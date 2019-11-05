@@ -1,0 +1,20 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$primary: #FF69B4;
+$light: #eee;
+
+body {
+  color: white;
+  background: #1f1f1f;
+}
+
+.bg-card {
+  background-color: $primary;
+  padding: 50px;
+}
+
+.bg-card-light {
+  background-color: $light;
+  color: #1f1f1f;
+  padding: 50px;
+}
